@@ -6,15 +6,21 @@ body {
 }
 
 header {
-  background-image: linear-gradient(black,rgb(8, 33, 175),black);
+  background-image: url("../images/banner.png"), linear-gradient(#00000099,#31a8dd44);
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 footer {
-  background-image: linear-gradient(black,rgb(8, 33, 175));
+  background-image: linear-gradient(#31a8dd00,#31a8dd33);
+}
+
+header, section, footer{
+  border: 1px solid #31a8dd;
 }
 
 h1 {
-  color:aqua;
+  color: linear-gradient();
 }
 
 h2 {
